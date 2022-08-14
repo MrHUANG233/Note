@@ -1,0 +1,14 @@
+1. git clone <ssh.address>
+2. git init
+
+3. git config --global user.name "MrHUANG233"
+4. git config --global user.email "193***5524@qq.com"
+3. ssh -keygen -t rsa -C "193***5524@qq.com"
+
+4. cat id_rsa.pub
+5. git add .
+6. git commit -m "message"
+7. git pull origin master
+8. git pull origin master --allow-unrelated-histories
+9. git push origin master:master
+10 git push origin master:master --allow-unrelated-histories
