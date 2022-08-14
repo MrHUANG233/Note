@@ -1,0 +1,5 @@
+1.csproj文件功能： https://www.anquanke.com/post/id/84597
+2.csproj文件字段详解：https://blog.csdn.net/sgmcumt/article/details/102490381
+3.csproj结构详解：https://blog.csdn.net/WPwalter/article/details/80371271
+
+xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
