@@ -1,0 +1,329 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "on121day.Reverse",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Djtsl",
+            "request": "launch",
+            "mainClass": "on29day.Djtsl",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseList",
+            "request": "launch",
+            "mainClass": "on21day.ReverseList",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitionList",
+            "request": "launch",
+            "mainClass": "on21day.PartitionList",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse",
+            "request": "launch",
+            "mainClass": "on123day.Reverse",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxCard",
+            "request": "launch",
+            "mainClass": "on123day.MaxCard",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BagProblem",
+            "request": "launch",
+            "mainClass": "on121day.BagProblem",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transf",
+            "request": "launch",
+            "mainClass": "on121day.Transf",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transf",
+            "request": "launch",
+            "mainClass": "Transf",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintAllSub",
+            "request": "launch",
+            "mainClass": "on29day.PrintAllSub",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSubstring",
+            "request": "launch",
+            "mainClass": "on29day.PrintSubstring",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch HNT",
+            "request": "launch",
+            "mainClass": "on28day.HNT",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch NQueens",
+            "request": "launch",
+            "mainClass": "on28day.NQueens",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSortTest",
+            "request": "launch",
+            "mainClass": "HeapSortTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Compare",
+            "request": "launch",
+            "mainClass": "on27day.Compare",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "on27day.Test",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapTest",
+            "request": "launch",
+            "mainClass": "on21day.MapTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyMapTest",
+            "request": "launch",
+            "mainClass": "MyMapTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Compare",
+            "request": "launch",
+            "mainClass": "on16day.Compare",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BobSort",
+            "request": "launch",
+            "mainClass": "on16day.BobSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyMapTest",
+            "request": "launch",
+            "mainClass": "on25day.MyMapTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapStruct",
+            "request": "launch",
+            "mainClass": "MapStruct",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchTree",
+            "request": "launch",
+            "mainClass": "SearchTree",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ResearchTree",
+            "request": "launch",
+            "mainClass": "ResearchTree",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PreOrderUnRecur",
+            "request": "launch",
+            "mainClass": "PreOrderUnRecur",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Xiangjiao",
+            "request": "launch",
+            "mainClass": "Xiangjiao",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CricList",
+            "request": "launch",
+            "mainClass": "CricList",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitionList",
+            "request": "launch",
+            "mainClass": "PartitionList",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MapTest",
+            "request": "launch",
+            "mainClass": "MapTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseList",
+            "request": "launch",
+            "mainClass": "ReverseList",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackTest",
+            "request": "launch",
+            "mainClass": "StackTest",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TongSort",
+            "request": "launch",
+            "mainClass": "TongSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mycompare",
+            "request": "launch",
+            "mainClass": "Mycompare",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch BigRootHeap",
+            "request": "launch",
+            "mainClass": "BigRootHeap",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "QuickSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch FastSort",
+            "request": "launch",
+            "mainClass": "FastSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BobSort",
+            "request": "launch",
+            "mainClass": "BobSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Compare",
+            "request": "launch",
+            "mainClass": "Compare",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch EorSelect",
+            "request": "launch",
+            "mainClass": "EorSelect",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch GuiBing",
+            "request": "launch",
+            "mainClass": "GuiBing",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertSort",
+            "request": "launch",
+            "mainClass": "InsertSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectSort",
+            "request": "launch",
+            "mainClass": "SelectSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSplit",
+            "request": "launch",
+            "mainClass": "TwoSplit",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch bobSort",
+            "request": "launch",
+            "mainClass": "bobSort",
+            "projectName": "Exercise_c62848f3"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "Exercise_c62848f3"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+1.N皇后问题
+一个n*n棋盘摆放n个皇后，每个皇后不重行不重列不在同一斜线的摆放总数。
+
+2.汉诺塔问题
+from to other
+p(i,from,to,other)//打印函数
+
+(1) 1~i-1 from->other
+(2) i from->to
+(3) 1~i-1 other->to
+

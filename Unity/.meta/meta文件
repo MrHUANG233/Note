@@ -1,0 +1,35 @@
+https://www.cnblogs.com/rollingyouandme/p/14674276.html
+
+Meta文件
+
+meta文件在unity中的作用非常关键,它有2个作用
+
+    定义在它同目录下,同名的非meta文件的唯一ID:GUID。而对于unity的序列化文件来说,引用的对象用的就是这个GUID。所以一旦meta中的GUID变更了,就要注意,它很可能引起一场引用丢失的灾难
+    存储资源文件的ImportSetting数据。在上文中资源文件是有ImportSetting数据的,这个数据正数存储在meta文件中。ImportSetting中专门有存储Assetbundle相关的数据。这些数据帮助编辑器去搜集所有需要打包的文件并分门别类。所以每一次修改配置都会修改meta文件。
+
+GUID 和 MD5 是完全不同的两个东西，首先 guid 的概念只存在于 unity 体系，而 MD5 则是扩大到整个文件系统。
+
+guid 用来识别不同的文件，它是根据 Path 路径来生成的；另外guid的生成规则不是单纯按照目录结构或者资源内容来的，多次生成的guid是不同的，这也就是meta文件需要提交的原因，防止同一个资源在不同人的工程中生成不同的guid。
+
+而 MD5 是根据文件内容进行的算法，同一个文件 被修改前后 ，其 MD5 的值是不同 的，所以 MD5被称为“文件指纹”。
+
+总结来说,guid 的因变量是 文件路径(当然也包括文件名),
+而MD5 的因变量是文件的内容(改文件名不会影响md5的值)。
+
+Assets/asset/test1 b5fcf979d49658547ba0fcf0b4ccd0c0
+Assets/asset/test1 b5fcf979d49658547ba0fcf0b4ccd0c0
+Assets/test1       b5fcf979d49658547ba0fcf0b4ccd0c0
+Assets/asset/test2 4bb40fdb24883da46af96d45d5358c86 4bb40fdb24883da46af96d45d5358c86
+Assets/asset/test1 7a35029ed15dbda45ac271d4d97503d5
+Assets/asset/test1 7a35029ed15dbda45ac271d4d97503d5 7a35029ed15dbda45ac271d4d97503d5 7a35029ed15dbda45ac271d4d97503d5
+
+Assets/AssetBundle/test1 5967349d2fe461048aa72a932d091621 5967349d2fe461048aa72a932d091621 5967349d2fe461048aa72a932d091621
+
+Assets/AssetBundle/test1 2b4b2580d420ea7418269b58c2e00997
+
+2b4b2580d420ea7418269b58c2e00997
+
+2b4b2580d420ea7418269b58c2e00997
+Assets/AssetBundle/test1 5967349d2fe461048aa72a932d091621
+
+5967349d2fe461048aa72a932d091621
